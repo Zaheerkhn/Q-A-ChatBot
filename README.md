@@ -33,9 +33,8 @@ project-folder/
 ### Installation Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
+   git clone https://github.com/Zaheerkhn/Q-A-ChatBot.git
+   cd Q-A-ChatBot
 
 2. **Create and activate a virtual environment:**
    ```bash
@@ -52,7 +51,7 @@ project-folder/
    Create a `.env` file in the project root:
    ```env
    LANGCHAIN_API_KEY=your_langchain_api_key
-   LANGCHAIN_PROJECT=GenAIAppwithOllama
+   LANGCHAIN_PROJECT=your_project_name
    GROQ_API_KEY=your_groq_api_key
    ```
 
@@ -85,7 +84,8 @@ project-folder/
 - Set API keys securely in Streamlit Secrets or `.env` files.
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
+
 
 ## 💡 Acknowledgments
 - [LangChain](https://www.langchain.com)
